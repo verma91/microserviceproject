@@ -1,0 +1,7 @@
+com\productservice\exception\GlobalException.class
+com\productservice\dao\ProductRepository.class
+com\productservice\service\ProductServiceIntf.class
+com\productservice\ProductService.class
+com\productservice\model\Product.class
+com\productservice\service\ProductServiceImpl.class
+com\productservice\controller\ProductController.class

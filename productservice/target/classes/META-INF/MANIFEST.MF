@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: pkrv0
+Build-Jdk: 16.0.1
+Implementation-Title: productservice
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.ecommerceapi
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/productservice
+Created-By: Maven Integration for Eclipse
+

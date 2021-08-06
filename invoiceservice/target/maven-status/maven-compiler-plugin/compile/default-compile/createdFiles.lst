@@ -1,0 +1,8 @@
+com\invoiceservice\InvoiceService.class
+com\invoiceservice\model\Invoice.class
+com\invoiceservice\controller\InoviceServiceController.class
+com\invoiceservice\dao\InvoiceRepository.class
+com\invoiceservice\service\InvoiceServiceIntf.class
+com\invoiceservice\controller\InvoiceFeignClient.class
+com\invoiceservice\service\InvoiceServiceImpl.class
+com\invoiceservice\exception\GlobalException.class

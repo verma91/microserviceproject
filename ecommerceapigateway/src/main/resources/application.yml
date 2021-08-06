@@ -1,0 +1,36 @@
+zuul:
+  #Service will be mapped under the /api URI
+  prefix: /api
+  routes:
+    productapi-service:
+      path: /product/**
+      serviceId: PRODUCTAPI-SERVICE 
+    orderapi-service:
+      path: /order/**
+      serviceId: ORDERAPI-SERVICE 
+    invoiceapi-service:
+      path: /invoice/**
+      serviceId: INVOICEAPI-SERVICE
+
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 70000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+     
+server:
+  port: 8079
+  
+spring:
+  application:
+    name: gateway-service
